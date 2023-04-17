@@ -1,5 +1,10 @@
+
+-- config for mason, mason-lspconfig and lspconfig for LSP use
+--
 require('mason').setup()
 require('mason-lspconfig').setup({
+
+  --LSP to have installed for langauge support
   ensure_installed = {'lua_ls', 'clangd', 'jdtls', 'jedi_language_server'}
 })
 

@@ -1,4 +1,5 @@
 
+-- lualine default config
 
 require('lualine').setup {
   options = {

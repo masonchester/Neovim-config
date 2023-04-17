@@ -1,4 +1,6 @@
 
+-- treesitter default config
+
 require'nvim-treesitter.configs'.setup {
   ensure_installed = {"c", "lua", "java", "python"},
 

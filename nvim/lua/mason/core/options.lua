@@ -1,6 +1,8 @@
 
 local set = vim.opt --global options
 
+-- optional settings
+
 set.guifont = "Hack Nerd Font 14"
 set.termguicolors = true -- enable GUI colors for the terminal for truecolor 
 set.clipboard:append("unnamedplus") --copy paste
