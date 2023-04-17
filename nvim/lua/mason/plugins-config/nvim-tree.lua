@@ -9,6 +9,8 @@ vim.opt.termguicolors = true
 -- empty setup using defaults
 require("nvim-tree").setup()
 
+vim.keymap.set('n', '<leader>e', ':NvimTreeToggle<CR>')
+
 -- OR setup with some options
 require("nvim-tree").setup({
   sort_by = "case_sensitive",
@@ -17,5 +19,5 @@ require("nvim-tree").setup({
   },
   filters = {
     dotfiles = true,
-  },
+  }
 })
